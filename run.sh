@@ -1,0 +1,1 @@
+cmake --build ./build  --config Debug --target test_code -- -j 18 && ./build/test_code.exe

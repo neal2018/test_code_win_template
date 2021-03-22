@@ -1,0 +1,5 @@
+.vscode
+build
+input.txt
+output.txt
+output_temp.txt
