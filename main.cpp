@@ -11,7 +11,7 @@ int main(int, char**) {
 #endif
 #ifdef LOCAL
     ifstream cin("input.txt");
-    ofstream cout("output_temp.txt");
+    ofstream cout("output.txt");
 #endif
     int total_cases_number;
     cin >> total_cases_number;

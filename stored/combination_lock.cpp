@@ -46,7 +46,6 @@ int main(int, char**) {
             temp += (N - X[i]) * (p) + get(p, 0) + (i - p) * X[i] - get(i, p);
             temp +=
                 -(b - i) * X[i] + get(b, i) + (W - b) * (N + X[i]) - get(W, b);
-            // cout << p << " " << b << " " << temp << endl;
             res = min(res, temp);
         }
         // \sum_j min(abs(X[i] - X[j]), N - abs(X[i] - X[j]))

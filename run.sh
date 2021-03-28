@@ -1,1 +1,2 @@
 cmake --build ./build  --config Debug --target test_code -- -j 18 && ./build/test_code.exe
+# cmake --build ./build  --config Debug --target test_code -- -j 18 && python croupier.py -q ./build/test_code.exe "python local_testing_tool.py 1"
